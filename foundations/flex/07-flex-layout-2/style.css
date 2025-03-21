@@ -34,6 +34,7 @@ body {
   display: flex;
   flex-shrink: 0;
   padding: 16px;
+  font-size: 24px;
 }
 
 .card {
@@ -42,17 +43,26 @@ body {
   border-radius: 4px;
   width: 300px;
   padding: 16px;
+  
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
-  gap: 24px;
-  margin-left: 300px;
+  gap: 32px;
 }
 
 .main {
   display: flex;
   flex: 1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
